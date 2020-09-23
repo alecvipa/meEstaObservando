@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.sTitles{
+    margin-top: 5%;
+}
+.inicioContainer{
+    /* background-color: wheat; */
+    height: 50rem;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.header{
+    height: 3rem;
+    padding-top: 0.5%;
+}
+
+.portada{
+    background-image: url("/assets/images/portada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 40rem;
+    margin-top: 5%;   
+}
+
+.primerParrafo{
+    margin-top: 3%;
+    width: 60%;
+    font-size: 20px;
+}
+.decOne{
+    margin-top: 5%;
+}
+.btn:hover {
+    background-color: wheat;
+}
+
+@media (min-width: 401px) and (max-width: 768px) {
+    .headerTitle{
+        font-size: 18px;
+        padding-top: 11px;
+    }
+    .sTitles{
+    margin-top: 7%;
+    font-size: 25px;
+    }
+    .sTitles2{
+        font-size: 15px;
+        margin-bottom: 10%;
+    }
+    .portada{
+    height: 150rem;
+    width: 17rem;
+    margin-top: 5%;   
+    }
+    .primerParrafo{
+    margin-top: 7%;
+    width: 85%;
+    font-size: 15px;
+    }
+    .btnDec1{
+        margin-bottom: 10%;
+    }
+    .inicioContainer{
+    /* background-color: wheat; */
+    height: 43rem;
+
+    }
+    
+}
+@media (max-width: 400px) {
+    .btnDec1{
+        margin-bottom: 10%;
+    }
+    .headerTitle{
+        font-size: 18px;
+        padding-top: 11px;
+    }
+    .sTitles{
+    margin-top: 7%;
+    font-size: 25px;
+    }
+    .sTitles2{
+        font-size: 15px;
+        margin-bottom: 10%;
+    }
+    .portada{
+    height: 15rem;
+    width: 17rem;
+    margin-top: 5%;   
+    }
+    .primerParrafo{
+    margin-top: 7%;
+    width: 85%;
+    font-size: 15px;
+    }
+    .inicioContainer{
+    /* background-color: wheat; */
+    height: 43rem;
+
+    }
+}
