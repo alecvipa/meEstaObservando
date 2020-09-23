@@ -14,24 +14,44 @@
 </head>
 
 <body>
+    <audio id="myAudio">
+        <source src="/assets/music/mixit.mp3">
+        Your browser does not support the audio element.
+    </audio>
+
     <div class="header bg-dark">
         <div class="container">
             <div class="row">
-                <div class="container text-center">
-                    <h4 class="headerTitle">Sígueme en redes: <a href="https://www.instagram.com/alejandrovilpa/?hl=es-la" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fab fa-instagram"></i> alejandrovilpa</a> </h4>
+                <div class="col-md-6">
+                    <div class="container text-center">
+                        <h4 class="headerTitle">Sígueme en redes: <a
+                                href="https://www.instagram.com/alejandrovilpa/?hl=es-la" target="_blank"
+                                rel="noopener noreferrer" class="text-white"><i class="fab fa-instagram"></i>
+                                alejandrovilpa</a> </h4>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h4 onclick="playAudio()"><i class="fas fa-volume-up"></i> Activar audio</h4>
                 </div>
             </div>
         </div>
     </div>
 
     <h2 class="text-center sTitles">Me está observando</h2>
-    <h4 class="text-center sTitles2">Relato <span style="font-weight: bolder; color: wheat" class="blink">interactivo</span> por Alejandro Vilpa</h4>
+    <h4 class="text-center sTitles2">Relato <span style="font-weight: bolder; color: wheat"
+            class="blink">interactivo</span> por Alejandro Vilpa</h4>
 
     <div class="bodie">
         {{{body}}}
     </div>
 
+    <script>
+        var x = document.getElementById("myAudio");
+        function playAudio() {
+            x.play();
+        }
 
+    </script>
     <script src="/assets/js/script.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
