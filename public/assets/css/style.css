@@ -6,6 +6,22 @@ body{
 .sTitles{
     margin-top: 5%;
 }
+.blink {
+    animation: blinker 1s linear infinite;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0.5;
+    }
+}
+.blink2 {
+    animation: blinker 1.5s linear infinite;
+  }
+  @keyframes blinker {
+    50% {
+      opacity: 0.5;
+    }
+}
 .inicioContainer{
     /* background-color: wheat; */
     height: 50rem;
