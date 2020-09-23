@@ -18,88 +18,42 @@ body{
 }
 
 .portada{
-    background-image: url("/assets/images/portada.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    width: 40rem;
-    margin-top: 5%;   
+    background-image: url("/assets/images/portada.jpg");  
 }
 .boat{
-    background-image: url("/assets/images/boat.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    width: 40rem;
-    margin-top: 5%;   
+    background-image: url("/assets/images/boat.jpg"); 
 }
 .regresar{
     background-image: url("/assets/images/regresar.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    width: 40rem;
-    margin-top: 5%; 
 }
 .llaves{
     background-image: url("/assets/images/llaves.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    width: 40rem;
-    margin-top: 5%;
 }
 .cabana{
     background-image: url("/assets/images/cabin.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    width: 40rem;
-    margin-top: 5%;
 }
 .gun{
     background-image: url("/assets/images/gun.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    width: 40rem;
-    margin-top: 5%;
 
 }
 .levantarse{
     background-image: url("/assets/images/levantarse.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    width: 40rem;
-    margin-top: 5%;
 }
 .pistolaMano{
     background-image: url("/assets/images/gun.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30rem;
-    width: 40rem;
-    margin-top: 5%;
 
 }
 .escopeta{
     background-image: url("/assets/images/buscar.jpg");
+
+}
+.escopeta, .pistolaMano, .levantarse, .gun, .cabana, .llaves, .regresar, .boat, .portada{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 30rem;
     width: 40rem;
     margin-top: 5%;
-
 }
 
 .primerParrafo{
@@ -129,7 +83,7 @@ body{
         font-size: 15px;
         margin-bottom: 10%;
     }
-    .portada,.boat,.regresar, .cabana,.gun, .levantarse, .pistolaMano, .escopeta{
+    .portada,.boat,.regresar, .cabana,.gun, .levantarse, .pistolaMano, .escopeta,.llaves{
     height: 15rem;
     width: 17rem;
     margin-top: 5%;   
@@ -147,9 +101,18 @@ body{
     height: 43rem;
 
     }
+
+    .regresarDiv{
+        margin-bottom: 80%;
+    }
     
 }
 @media (max-width: 400px) {
+    .regresarDiv{
+        margin-bottom: 80%;
+    }
+    
+
     .btnDec1{
         margin-bottom: 10%;
     }
@@ -165,7 +128,7 @@ body{
         font-size: 15px;
         margin-bottom: 10%;
     }
-    .portada, .boat, .regresar, .cabana, .gun, .levantarse, .pistolaMano, .escopeta{
+    .portada, .boat, .regresar, .cabana, .gun, .levantarse, .pistolaMano, .escopeta,.llaves{
     height: 15rem;
     width: 17rem;
     margin-top: 5%;   
