@@ -26,6 +26,81 @@ body{
     width: 40rem;
     margin-top: 5%;   
 }
+.boat{
+    background-image: url("/assets/images/boat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 40rem;
+    margin-top: 5%;   
+}
+.regresar{
+    background-image: url("/assets/images/regresar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 40rem;
+    margin-top: 5%; 
+}
+.llaves{
+    background-image: url("/assets/images/llaves.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 40rem;
+    margin-top: 5%;
+}
+.cabana{
+    background-image: url("/assets/images/cabin.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 40rem;
+    margin-top: 5%;
+}
+.gun{
+    background-image: url("/assets/images/gun.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 40rem;
+    margin-top: 5%;
+
+}
+.levantarse{
+    background-image: url("/assets/images/levantarse.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 40rem;
+    margin-top: 5%;
+}
+.pistolaMano{
+    background-image: url("/assets/images/gun.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 40rem;
+    margin-top: 5%;
+
+}
+.escopeta{
+    background-image: url("/assets/images/buscar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width: 40rem;
+    margin-top: 5%;
+
+}
 
 .primerParrafo{
     margin-top: 3%;
@@ -38,7 +113,9 @@ body{
 .btn:hover {
     background-color: wheat;
 }
-
+.regresarDiv{
+    margin-bottom: 20%;
+}
 @media (min-width: 401px) and (max-width: 768px) {
     .headerTitle{
         font-size: 18px;
@@ -52,7 +129,7 @@ body{
         font-size: 15px;
         margin-bottom: 10%;
     }
-    .portada{
+    .portada,.boat,.regresar, .cabana,.gun, .levantarse, .pistolaMano, .escopeta{
     height: 15rem;
     width: 17rem;
     margin-top: 5%;   
@@ -88,7 +165,7 @@ body{
         font-size: 15px;
         margin-bottom: 10%;
     }
-    .portada{
+    .portada, .boat, .regresar, .cabana, .gun, .levantarse, .pistolaMano, .escopeta{
     height: 15rem;
     width: 17rem;
     margin-top: 5%;   
